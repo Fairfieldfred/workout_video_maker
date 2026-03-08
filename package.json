@@ -1,0 +1,25 @@
+{
+  "name": "workout-video-generator",
+  "version": "1.0.0",
+  "description": "Generate workout timer videos for YouTube using Remotion",
+  "scripts": {
+    "studio": "remotion studio",
+    "render": "tsx render.ts",
+    "build": "remotion render WorkoutVideo"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.301",
+    "@remotion/google-fonts": "4.0.301",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remotion": "4.0.301"
+  },
+  "devDependencies": {
+    "@remotion/bundler": "4.0.301",
+    "@remotion/renderer": "4.0.301",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}

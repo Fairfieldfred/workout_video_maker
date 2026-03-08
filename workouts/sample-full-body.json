@@ -1,0 +1,56 @@
+{
+  "workout": {
+    "title": "Full Body Strength - Day 1",
+    "style": {
+      "primaryColor": "#FF6B35",
+      "backgroundColor": "#1A1A2E"
+    }
+  },
+  "phases": [
+    {
+      "type": "intro",
+      "title": "Full Body Strength Workout",
+      "subtitle": "Quick Test | 3 Exercises",
+      "duration": 5
+    },
+    {
+      "type": "setup",
+      "title": "Set Up Your Barbell",
+      "instructions": "Load 135 lbs on the barbell. Place on squat rack at shoulder height.",
+      "duration": 15
+    },
+    {
+      "type": "exercise",
+      "title": "Barbell Back Squat",
+      "sets": [
+        { "setNumber": 1, "reps": 8, "timerMode": "countup", "estimatedDuration": 20, "rest": 15 },
+        { "setNumber": 2, "reps": 8, "timerMode": "countup", "estimatedDuration": 20, "rest": 15 }
+      ]
+    },
+    {
+      "type": "setup",
+      "title": "Move to Bench Press",
+      "instructions": "Set bench to flat position. Load appropriate weight.",
+      "duration": 15
+    },
+    {
+      "type": "exercise",
+      "title": "Bench Press",
+      "sets": [
+        { "setNumber": 1, "reps": 10, "timerMode": "countdown", "duration": 20, "rest": 15 }
+      ]
+    },
+    {
+      "type": "exercise",
+      "title": "Bent Over Row",
+      "sets": [
+        { "setNumber": 1, "reps": 10, "timerMode": "countdown", "duration": 20, "rest": 0 }
+      ]
+    },
+    {
+      "type": "cooldown",
+      "title": "Cool Down & Stretch",
+      "duration": 10
+    }
+  ]
+}
