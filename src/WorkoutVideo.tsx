@@ -1,5 +1,5 @@
 import React, { useMemo } from "react";
-import { useCurrentFrame, useVideoConfig } from "remotion";
+import { staticFile, useCurrentFrame, useVideoConfig, Img } from "remotion";
 import type { WorkoutData } from "./types";
 import { buildTimeline, findActiveSegment, getTotalDurationInFrames } from "./utils/timeline";
 import { IntroScreen } from "./components/IntroScreen";
@@ -91,6 +91,18 @@ export const WorkoutVideo: React.FC<WorkoutData> = (props) => {
   return (
     <div style={{ width: "100%", height: "100%", position: "relative" }}>
       {renderSegment()}
+      <Img
+        src={staticFile("yawa4u-icon-dark.png")}
+        style={{
+          position: "absolute",
+          bottom: 30,
+          right: 30,
+          width: 160,
+          height: 160,
+          opacity: 0.4,
+          pointerEvents: "none",
+        }}
+      />
       <ProgressBar progress={overallProgress} color={primaryColor} />
     </div>
   );

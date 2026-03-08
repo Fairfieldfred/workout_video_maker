@@ -1,0 +1,155 @@
+{
+  "workout": {
+    "title": "Push Day - Week 1",
+    "style": {
+      "primaryColor": "#FF6B35",
+      "backgroundColor": "#1A1A2E"
+    }
+  },
+  "phases": [
+    {
+      "type": "intro",
+      "title": "Push Day - Week 1",
+      "subtitle": "45 min | Intermediate",
+      "duration": 8
+    },
+    {
+      "type": "setup",
+      "title": "Set Up For Barbell Bench Press",
+      "instructions": "Set bench to flat. Load working weight on barbell.",
+      "duration": 30
+    },
+    {
+      "type": "exercise",
+      "title": "Barbell Bench Press",
+      "sets": [
+        {
+          "setNumber": 1,
+          "reps": 8,
+          "timerMode": "countdown",
+          "duration": 30,
+          "rest": 90
+        },
+        {
+          "setNumber": 2,
+          "reps": 8,
+          "timerMode": "countdown",
+          "duration": 30,
+          "rest": 90
+        },
+        {
+          "setNumber": 3,
+          "reps": 8,
+          "timerMode": "countdown",
+          "duration": 30,
+          "rest": 90
+        },
+        {
+          "setNumber": 4,
+          "reps": 8,
+          "timerMode": "countdown",
+          "duration": 30,
+          "rest": 60
+        }
+      ]
+    },
+    {
+      "type": "setup",
+      "title": "Set Up For Incline Dumbbell Press",
+      "instructions": "Set bench to 30-degree incline. Grab dumbbells.",
+      "duration": 30
+    },
+    {
+      "type": "exercise",
+      "title": "Incline Dumbbell Press",
+      "sets": [
+        {
+          "setNumber": 1,
+          "reps": 10,
+          "timerMode": "countdown",
+          "duration": 35,
+          "rest": 75
+        },
+        {
+          "setNumber": 2,
+          "reps": 10,
+          "timerMode": "countdown",
+          "duration": 35,
+          "rest": 75
+        },
+        {
+          "setNumber": 3,
+          "reps": 10,
+          "timerMode": "countdown",
+          "duration": 35,
+          "rest": 60
+        }
+      ]
+    },
+    {
+      "type": "setup",
+      "title": "Set Up For Overhead Press",
+      "instructions": "Load barbell on rack at shoulder height.",
+      "duration": 20
+    },
+    {
+      "type": "exercise",
+      "title": "Overhead Press",
+      "sets": [
+        {
+          "setNumber": 1,
+          "reps": 8,
+          "timerMode": "countdown",
+          "duration": 25,
+          "rest": 90
+        },
+        {
+          "setNumber": 2,
+          "reps": 8,
+          "timerMode": "countdown",
+          "duration": 25,
+          "rest": 90
+        },
+        {
+          "setNumber": 3,
+          "reps": 8,
+          "timerMode": "countdown",
+          "duration": 25,
+          "rest": 60
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "title": "Lateral Raises",
+      "sets": [
+        {
+          "setNumber": 1,
+          "reps": 15,
+          "timerMode": "countdown",
+          "duration": 30,
+          "rest": 60
+        },
+        {
+          "setNumber": 2,
+          "reps": 15,
+          "timerMode": "countdown",
+          "duration": 30,
+          "rest": 60
+        },
+        {
+          "setNumber": 3,
+          "reps": 15,
+          "timerMode": "countdown",
+          "duration": 30,
+          "rest": 0
+        }
+      ]
+    },
+    {
+      "type": "cooldown",
+      "title": "Cool Down & Stretch",
+      "duration": 60
+    }
+  ]
+}

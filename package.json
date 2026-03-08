@@ -5,6 +5,7 @@
   "scripts": {
     "studio": "remotion studio",
     "render": "tsx render.ts",
+    "create": "tsx create-workout.ts",
     "build": "remotion render WorkoutVideo"
   },
   "dependencies": {

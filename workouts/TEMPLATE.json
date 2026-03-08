@@ -1,0 +1,57 @@
+{
+  "workout": {
+    "title": "YOUR WORKOUT TITLE",
+    "style": {
+      "primaryColor": "#FF6B35",
+      "backgroundColor": "#1A1A2E"
+    }
+  },
+  "phases": [
+    {
+      "type": "intro",
+      "title": "YOUR WORKOUT TITLE",
+      "subtitle": "Duration | Difficulty Level",
+      "duration": 8
+    },
+
+    {
+      "_comment": "=== EXERCISE 1 ===",
+      "type": "setup",
+      "title": "Set Up For [Exercise Name]",
+      "instructions": "Describe equipment setup here.",
+      "duration": 30
+    },
+    {
+      "type": "exercise",
+      "title": "Exercise Name",
+      "sets": [
+        { "setNumber": 1, "reps": 10, "timerMode": "countdown", "duration": 30, "rest": 90 },
+        { "setNumber": 2, "reps": 10, "timerMode": "countdown", "duration": 30, "rest": 90 },
+        { "setNumber": 3, "reps": 10, "timerMode": "countdown", "duration": 30, "rest": 120 }
+      ]
+    },
+
+    {
+      "_comment": "=== EXERCISE 2 ===",
+      "type": "setup",
+      "title": "Set Up For [Exercise Name]",
+      "instructions": "Describe equipment setup here.",
+      "duration": 30
+    },
+    {
+      "type": "exercise",
+      "title": "Exercise Name",
+      "sets": [
+        { "setNumber": 1, "reps": 10, "timerMode": "countdown", "duration": 30, "rest": 90 },
+        { "setNumber": 2, "reps": 10, "timerMode": "countdown", "duration": 30, "rest": 90 },
+        { "setNumber": 3, "reps": 10, "timerMode": "countdown", "duration": 30, "rest": 0 }
+      ]
+    },
+
+    {
+      "type": "cooldown",
+      "title": "Cool Down & Stretch",
+      "duration": 60
+    }
+  ]
+}
